@@ -205,6 +205,8 @@ body {
     background: #fff;
     box-sizing: border-box;
     text-align: center;
+     overflow: hidden; /* مهم جداً */
+
 }
 
 .about-me::before {
@@ -218,6 +220,7 @@ body {
     z-index: -1;
     transform: rotate(-45deg);
     border-radius: 10px;
+  
 }
 
 .about-me p {
@@ -529,4 +532,5 @@ margin: auto;
 .social-icons a:hover {
   color: #f0c0d0; /* لون أفتح عند التحويم */
 }
+
 
